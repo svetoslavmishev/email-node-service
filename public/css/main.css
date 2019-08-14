@@ -1,0 +1,75 @@
+/*[ FONT ]*/
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf');
+}
+
+/*[ RESTYLE TAG ]*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font: bold 18px/1.5 Poppins-Regular, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5em;
+  width: 100%;
+  height: 100%;
+}
+
+.submit {
+  width: 140px;
+  background: blueviolet;
+  color: black;
+  padding: 1.5em;
+  border-radius: 20px;
+}
+
+button {
+  display: inline-block;
+  border-radius: 16px;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #9122bd;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover,
+button:focus {
+  background: #cd9ad1;
+}
